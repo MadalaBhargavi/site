@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature pics</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        .header{
+    display:flex;
+    height:35px;
+    float:right;
+}
+.nav{
+    padding:20px;
+}
+hr{
+    margin-top: 20px;
+    height:25px;
+}
+a{
+    text-decoration:none ;
+    color:white;
+    font-size:25px;
+}
+.pic{
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/11/09/511920/45482ae7629d9bbc982b907b8d90e776.jpg");
+    background-attachment: fixed;
+    height:690px;
+    width:1520px;
+    background-size: 100%;
+    
+ 
+}
+
+.pic:hover{
+    animation: pic 16s infinite;
+}
+@keyframes pic{
+    25%{
+        background-image: url("https://images7.alphacoders.com/368/368875.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:690px;
+        width:1520px;
+    }
+    20%{
+        background-image: url("https://images6.alphacoders.com/100/thumb-1920-1002209.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:690px;
+        width:1520px;
+    }
+    40%{
+        background-image: url("https://logitrustvoyages.com/logitrustblog/wp-content/uploads/2020/07/street_food.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:690px;
+        width:1520px;
+    }
+    60%{
+        background-image: url("https://www.langweiledich.net/wp-content/uploads/2018/10/Moataz-Mohamed_01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:690px;
+        width:1520px;
+    }
+}
+.txt{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 32%;
+    color: white;
+    font-size: xxx-large;
+}
+    </style>
+</head>
+<body>
+    <nav class="header">
+        <div class="nav"><a href="login.html">Login</a></div>
+        <hr>
+        <div class="nav"><a href="signup.html">SignUp</a></div>
+    </nav>
+    <div class="pic">
+        <div class="txt">Welcome to Kushal's Restaurant</div>
+    </div>
+</body>
+</html>
